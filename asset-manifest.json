@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Zelt-Statuatory-Allowance-Calculator/static/css/main.2c2a969e.css",
+    "main.js": "/Zelt-Statuatory-Allowance-Calculator/static/js/main.8ee13f47.js",
+    "static/js/787.05456da6.chunk.js": "/Zelt-Statuatory-Allowance-Calculator/static/js/787.05456da6.chunk.js",
+    "index.html": "/Zelt-Statuatory-Allowance-Calculator/index.html",
+    "main.2c2a969e.css.map": "/Zelt-Statuatory-Allowance-Calculator/static/css/main.2c2a969e.css.map",
+    "main.8ee13f47.js.map": "/Zelt-Statuatory-Allowance-Calculator/static/js/main.8ee13f47.js.map",
+    "787.05456da6.chunk.js.map": "/Zelt-Statuatory-Allowance-Calculator/static/js/787.05456da6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c2a969e.css",
+    "static/js/main.8ee13f47.js"
+  ]
+}
