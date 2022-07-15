@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Zelt-Statuatory-Allowance-Calculator/static/css/main.2c2a969e.css",
-    "main.js": "/Zelt-Statuatory-Allowance-Calculator/static/js/main.64905d2c.js",
-    "static/js/787.05456da6.chunk.js": "/Zelt-Statuatory-Allowance-Calculator/static/js/787.05456da6.chunk.js",
-    "index.html": "/Zelt-Statuatory-Allowance-Calculator/index.html",
-    "main.2c2a969e.css.map": "/Zelt-Statuatory-Allowance-Calculator/static/css/main.2c2a969e.css.map",
-    "main.64905d2c.js.map": "/Zelt-Statuatory-Allowance-Calculator/static/js/main.64905d2c.js.map",
-    "787.05456da6.chunk.js.map": "/Zelt-Statuatory-Allowance-Calculator/static/js/787.05456da6.chunk.js.map"
+    "main.css": "/Zelt-Statutory-Allowance-Calculator/static/css/main.2c2a969e.css",
+    "main.js": "/Zelt-Statutory-Allowance-Calculator/static/js/main.a49cfdfc.js",
+    "static/js/787.e8e67e44.chunk.js": "/Zelt-Statutory-Allowance-Calculator/static/js/787.e8e67e44.chunk.js",
+    "index.html": "/Zelt-Statutory-Allowance-Calculator/index.html",
+    "main.2c2a969e.css.map": "/Zelt-Statutory-Allowance-Calculator/static/css/main.2c2a969e.css.map",
+    "main.a49cfdfc.js.map": "/Zelt-Statutory-Allowance-Calculator/static/js/main.a49cfdfc.js.map",
+    "787.e8e67e44.chunk.js.map": "/Zelt-Statutory-Allowance-Calculator/static/js/787.e8e67e44.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2c2a969e.css",
-    "static/js/main.64905d2c.js"
+    "static/js/main.a49cfdfc.js"
   ]
 }
