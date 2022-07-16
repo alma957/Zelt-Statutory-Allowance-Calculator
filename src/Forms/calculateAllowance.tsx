@@ -18,9 +18,9 @@ export const StatuatoryAllowanceCalc = (): JSX.Element => {
   >();
 
   const [startPeriodSpecified, setStartPeriodSpecified] =
-    useState<boolean>(false);
+    useState<boolean>(true);
   const [currentHolidayPeriodStartDate, setcurrentHolidayPeriodStartDate] =
-    useState<string | undefined>();
+    useState<string>(defDate);
   const [isComplete, setIsComplete] = useState<boolean>(false);
   const [totAnnAllowance, setTotAnnAllowance] = useState<number>();
   const [totCarryOver, setTotCarryOver] = useState<number | undefined>();
@@ -97,6 +97,7 @@ export const StatuatoryAllowanceCalc = (): JSX.Element => {
           Current Holiday Period Start Date (leave blank if not in contract)
           <input
             type="date"
+            style={{ display: startPeriodSpecified ? "inline" : "none" }}
             value={currentHolidayPeriodStartDate}
             required={startPeriodSpecified ? true : false}
             onChange={(e) => setcurrentHolidayPeriodStartDate(e.target.value)}
@@ -222,14 +223,18 @@ export const StatuatoryAllowanceCalc = (): JSX.Element => {
         >
           <p>
             Employee's Annual Holiday Allowance (inclusive of bank holidays):{" "}
-            {totAnnAllowance}
+            <b>{totAnnAllowance}</b>
           </p>
-          <p>Employee's Annual Carry Over Allowance: {totCarryOver}</p>
+          <p>
+            Employee's Annual Carry Over Allowance: <b>{totCarryOver}</b>
+          </p>
           <p>
             Employee's pro-rata Holiday Allowance (Valid if Period Not Full):{" "}
-            {ratAnnAllowance}
+            <b>{ratAnnAllowance}</b>
           </p>
-          <p>Employee's pro-rata Carry Over Allowance {ratCarryOver}</p>
+          <p>
+            Employee's pro-rata Carry Over Allowance <b>{ratCarryOver}</b>
+          </p>
         </div>
       </div>
     </form>
